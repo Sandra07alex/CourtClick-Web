@@ -30,7 +30,7 @@ export default function PhoneLoginPage() {
     <main className="phone-container">
       <div className="banner-container">
         <Image
-          src="/images/banenrpublic.png"
+          src="/images/bannerpublic.png"
           alt="Banner"
           width={1600}
           height={208}
