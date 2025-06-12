@@ -32,7 +32,7 @@ export default function OTPClient() {
     <main className="otp-container">
       <div className="banner-container">
         <Image
-          src="/images/banenrpublic.png"
+          src="/images/bannerpublic.png"
           alt="Banner"
           width={1600}
           height={208}
