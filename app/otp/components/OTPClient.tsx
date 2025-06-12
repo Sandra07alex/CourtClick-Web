@@ -4,7 +4,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useRef, useState } from 'react';
 import './otp-client.css';
 
-export default function OTPPage() {
+export default function OTPClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const phone = searchParams.get('phone') || 'Unknown';
@@ -85,4 +85,4 @@ export default function OTPPage() {
       </button>
     </main>
   );
-}
+} 
