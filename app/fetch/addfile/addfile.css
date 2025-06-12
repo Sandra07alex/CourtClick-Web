@@ -1,0 +1,99 @@
+.onboarding-container {
+    min-height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .onboarding-container {
+      padding: 2rem;
+    }
+  }
+  
+  .banner-container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    min-height: 8rem;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .banner-container {
+      min-height: 13rem;
+    }
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .splash-container {
+    width: 1147px;
+    height: 438px;
+    top: 297px;
+    left: 147px;
+
+    background-color:#E3E3E3;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .splash-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .splash-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .splash-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .splash-subtitle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .splash-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .splash-button {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #50223C;
+    border-radius: 50%;
+  }
+  .splash-button-text {
+    background-color: #50223C;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 100px;
+    font-size: 16px;
+    cursor: pointer;
+  }     

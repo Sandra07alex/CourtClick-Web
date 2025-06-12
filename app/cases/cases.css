@@ -1,0 +1,176 @@
+.cases-container {
+  min-height: 100vh;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cases-banner {
+  width: 100%;
+  max-width: 1200px;
+  height: 8rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(90deg, #4B1248 0%, #6B1F67 100%);
+  margin-bottom: 2rem;
+}
+
+.cases-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+
+.cases-subtitle {
+  text-align: center;
+  color: #6B7280;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.cases-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto 0 auto;
+  padding: 0 1rem;
+}
+
+.cases-card {
+  cursor: pointer;
+  border: 2px solid #E5E7EB;
+  border-radius: 2rem;
+  padding: 0.75rem 2rem;
+  min-width: 300px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-shadow: none;
+  font-size: 1rem;
+}
+
+.cases-card:hover {
+  border-color: #B983C5;
+  box-shadow: 0 2px 8px 0 rgba(75, 18, 72, 0.04);
+}
+
+.cases-card.selected {
+  border-color: #B983C5;
+  box-shadow: 0 0 0 2px #B983C533;
+  background: #faf6fd;
+}
+
+.cases-radio {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  position: relative;
+  min-width: 2.5rem;
+}
+
+.cases-radio-point {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid #B983C5;
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.cases-radio.selected .cases-radio-point {
+  background: #41112DF7;
+  border-color: #B983C5;
+}
+
+.cases-radio.selected .cases-icon {
+  color: #6B1F67;
+}
+
+.cases-icon {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  color: #222;
+  transition: color 0.2s;
+}
+
+.cases-label {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.cases-desc {
+  font-size: 0.70rem;
+  color: #222;
+  font-weight: 400;
+}
+
+.cases-card.selected .cases-desc {
+  color: #6B1F67;
+}
+
+.banner-container {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  min-height: 8rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .banner-container {
+    min-height: 13rem;
+  }
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+.subtitle {
+  text-align: center;
+  color: #6B7280;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
